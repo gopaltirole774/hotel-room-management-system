@@ -31,7 +31,7 @@ public class RoomController {
         return new ResponseEntity<>(roomService.addRoom(roomRequestDto), HttpStatus.CREATED);
     }
 
-    @GetMapping("/all")
+    @GetMapping
     @Operation(summary = "Get all rooms")
     @ApiResponse(responseCode = "200", description = "Rooms retrieved successfully")
             @ApiResponse(responseCode = "404", description = "Rooms not found")

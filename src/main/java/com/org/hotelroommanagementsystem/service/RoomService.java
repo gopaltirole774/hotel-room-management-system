@@ -6,7 +6,7 @@ import com.org.hotelroommanagementsystem.dto.RoomResponseDto;
 
 import java.util.List;
 
-public interface RoomService {
+public interface    RoomService {
 
     RoomResponseDto addRoom(RoomRequestDto roomRequestDto);
 
